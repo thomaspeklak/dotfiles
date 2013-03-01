@@ -44,10 +44,10 @@
     "camelcase"     : true,
     "quotmark"      : true,
     "unused"        : true,
-    "maxparams"     : 3,
+    "maxparams"     : 4,
     "maxdepth"      : 2,
     "maxstatements" : 8,
-    "maxlen"        : 80,
+    "maxlen"        : 100,
     "maxcomplexity" : 4,
 
 
@@ -67,13 +67,13 @@
     "evil"          : false,    // Tolerate use of `eval`.
     "expr"          : false,    // Tolerate `ExpressionStatement` as Programs.
     "funcscope"     : false,    // Tolerate declarations of variables inside of control structures while accessing them later from the outside.
-    "globalstrict"  : false,    // Allow global "use strict" (also enables 'strict').
+    "globalstrict"  : true,    // Allow global "use strict" (also enables 'strict').
     "iterator"      : false,    // Allow usage of __iterator__ property.
     "lastsemic"     : false,    // Tolerat missing semicolons when the it is omitted for the last statement in a one-line block.
     "laxbreak"      : false,    // Tolerate unsafe line breaks e.g. `return [\n] x` without semicolons.
     "laxcomma"      : true,    // Suppress warnings about comma-first coding style.
     "loopfunc"      : false,    // Allow functions to be defined within loops.
-    "multistr"      : false,    // Tolerate multi-line strings.
+    "multistr"      : true,    // Tolerate multi-line strings.
     "onecase"       : false,    // Tolerate switches with just one case.
     "proto"         : false,    // Tolerate __proto__ property. This property is deprecated.
     "regexdash"     : false,    // Tolerate unescaped last dash i.e. `[-...]`.
