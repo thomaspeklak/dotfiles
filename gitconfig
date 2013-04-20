@@ -1,0 +1,26 @@
+[user]
+	name = Thomas Peklak
+  email = thomas.peklak@gmail.com
+[color]
+  status = auto
+  branch = auto
+[core]
+  whitespace = nowarn
+[alias]
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  loll = log --graph --decorate --pretty=oneline --abbrev-commit
+  lol = !git --no-pager loll
+  lolal = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  lola = !git --no-pager lolal
+  human = name-rev --name-only --refs=refs/heads/*
+  dt = difftool
+  s = status
+  m = checkout master
+  d = checkout development
+  co = checkout
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[push]
+  default = matching
