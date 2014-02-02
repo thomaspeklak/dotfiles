@@ -28,7 +28,7 @@
 
     "bitwise"       : true,     // Prohibit bitwise operators (&, |, ^, etc.).
     "curly"         : false,     // Require {} for every new block or scope.
-    "eqeqeq"        : false,    // Require triple equals i.e. `===`.
+    "eqeqeq"        : false,     // Require triple equals i.e. `===`.
     "forin"         : true,     // Tolerate `for in` loops without `hasOwnPrototype`.
     "immed"         : true,     // Require immediate invocations to be wrapped in parens e.g. `( function(){}() );`
     "latedef"       : true,     // Prohibit variable use before definition.
@@ -49,8 +49,6 @@
     "maxstatements" : 8,
     "maxlen"        : 100,
     "maxcomplexity" : 4,
-
-
     
     // == Relaxing Options ================================================
     //
@@ -110,7 +108,7 @@
     "nomen"         : false,    // Prohibit use of initial or trailing underbars in names.
     "onevar"        : false,    // Allow only one `var` statement per function.
     "passfail"      : false,    // Stop on first error.
-    "white"         : false,    // Check against strict whitespace and indentation rules.
+    "white"         : true,    // Check against strict whitespace and indentation rules.
     
     // == Undocumented Options ============================================
     //
