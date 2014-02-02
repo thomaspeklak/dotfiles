@@ -46,4 +46,6 @@ source ~/.zsh-config/zshrc_local
 NODE_ENV='development'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/opt/X11/lib/pkgconfig
 
+set -o vi
