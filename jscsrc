@@ -6,19 +6,19 @@
     "disallowMultipleLineBreaks": true,
     "disallowMultipleLineStrings": true,
     // "disallowMultipleVarDecl": true,
-    "disallowNewlineBeforeBlockStatements": true
+    "disallowNewlineBeforeBlockStatements": true,
     "disallowQuotedKeysInObjects": true,
     "disallowSpaceAfterObjectKeys": true,
     "disallowSpaceAfterPrefixUnaryOperators": true,
     "disallowSpaceBeforeBinaryOperators": [","],
     "disallowSpaceBeforePostfixUnaryOperators": true,
-    "disallowSpacesInAnonymousFunctionExpression": {"beforeOpeningRoundBrace": true},
+    //"disallowSpacesInAnonymousFunctionExpression": {"beforeOpeningRoundBrace": true},
     "disallowSpacesInFunctionDeclaration": {"beforeOpeningRoundBrace": true},
     "disallowSpacesInNamedFunctionExpression": {"beforeOpeningRoundBrace": true},
     "disallowSpacesInsideArrayBrackets": true,
     "disallowSpacesInsideObjectBrackets": null,
     "disallowSpacesInsideParentheses": true,
-    "disallowTrailingComma": false,
+    //"disallowTrailingComma": true,
     "disallowTrailingWhitespace": true,
     "disallowYodaConditions": true,
     "maximumLineLength": 120,
@@ -37,13 +37,12 @@
     "requireSpaceBeforeBinaryOperators": true,
     "requireSpaceBeforeBlockStatements": true,
     "requireSpacesInConditionalExpression": true,
-    "disallowSpacesInAnonymousFunctionExpression": {"beforeOpeningCurlyBrace": true},
     "safeContextKeyword": "_this",
     "validateIndentation": 4,
     "validateQuoteMarks": "'",
     "validateParameterSeparator": ", ",
     
-    plugins": [
+    "plugins": [
         "jscs-jsdoc"
     ],
     "jsDoc": {
