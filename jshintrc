@@ -16,7 +16,7 @@
     "indent"        : 4,        // Specify indentation spacing
     "latedef"       : true,     // Prohibit variable use before definition.
     "maxcomplexity" : 3,        // This option lets you control cyclomatic complexity throughout your code. Cyclomatic complexity measures the number of linearly independent paths through a program's source code.
-    "maxdepth"      : 2         // This option lets you control how nested do you want your blocks to be
+    "maxdepth"      : 2,        // This option lets you control how nested do you want your blocks to be
     "maxerr"        : 100,      // Maximum errors before stopping.
     "maxlen"        : 120,      // This option lets you set the maximum length of a line.
     "maxparams"     : 3,        // This option lets you set the max number of formal parameters allowed per function
